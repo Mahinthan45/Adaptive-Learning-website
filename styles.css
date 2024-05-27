@@ -61,7 +61,8 @@ body {
 /* Dropdown Menu */
 .dropdown-content {
     /* display: none; */
-    position: none;
+	display: none;
+    position: absolute;
     background-color: #fff;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
