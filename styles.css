@@ -7,6 +7,17 @@ body {
 	color : #333333;
 }
 
+body h1 {
+	font-size: 2.4rem;
+	margin: 1rem 0;
+	color: #4A90E2;
+}
+
+body p {
+	font-size: 18px;
+	line-height: 1.6;
+	margin: 2rem 4rem;
+}
 
 .navbar {
     display: flex;
@@ -15,6 +26,10 @@ body {
     background-color: #333333;
     padding: 1rem 2rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	
 	
 }
 
@@ -38,7 +53,7 @@ body {
 .nav-links li a {
     text-decoration: none;
     color: #000;
-    font-size: calc(1rem + 0.2vw);
+    font-size: calc(1rem + 0.1vw);
 	color: #FFFFFF;
 }
 
