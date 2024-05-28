@@ -3,14 +3,22 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fafafa;
+  background-color: #d3d3d3;
   color: #333333;
 }
 
 body h1 {
   font-size: 2.4rem;
   margin: 1rem 0;
-  color: #4a90e2;
+  color: #2f4f4f;
+  font-weight: 600;
+}
+
+body h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: #2f4f4f;
+  font-weight: 500;
 }
 
 body p {
@@ -68,6 +76,25 @@ body p {
   .contact a {
     padding: 0.5rem 0.75rem;
   }
+}
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin: 20px 0;
+}
+
+.video-container {
+  width: 80%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9; /* Maintain the aspect ratio of the video */
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
 }
 
 /* Dropdown Menu */
