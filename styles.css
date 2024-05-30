@@ -1,30 +1,50 @@
-/* styles.css */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #d3d3d3;
+  background-color: #ffffff;
   color: #333333;
 }
 
 body h1 {
   font-size: 2.4rem;
   margin: 1rem 0;
-  color: #2f4f4f;
-  font-weight: 600;
+  color: #4a90e2;
 }
-
 body h2 {
   font-size: 2rem;
   margin: 1rem 0;
-  color: #2f4f4f;
-  font-weight: 500;
+  color: #000000;
 }
 
 body p {
   font-size: 18px;
   line-height: 1.6;
   margin: 2rem 4rem;
+}
+
+.table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #acc8e5;
+  color: #112a46;
+}
+
+td {
+  background-color: #e3f2fd;
+  color: black;
 }
 
 .navbar {
@@ -140,4 +160,74 @@ iframe {
   .contact a {
     padding: 0.5rem 0.75rem;
   }
+}
+
+.topicIntro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topicIntroImg {
+  margin-right: 30px;
+  margin-left: -100px;
+}
+.topicIntroText {
+  max-width: 1000px;
+  margin-bottom: 120px;
+}
+
+.topicIntroText ul {
+  margin-top: 0px;
+}
+
+.button {
+  border: solid 2px #4a90e2;
+  color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: #ffffff;
+}
+
+.button:hover {
+  background-color: #4a90e2;
+  color: #ffffff;
+}
+
+.new-button {
+  border: none;
+  color: #ffffff;
+  padding: 14px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 6px 3px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #ff6f61, #de1d3d);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.new-button:hover {
+  background: linear-gradient(45deg, #de1d3d, #ff6f61);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.new-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px 3px rgba(255, 111, 97, 0.5);
+}
+
+.new-button:active {
+  background: linear-gradient(45deg, #b81d33, #ff4e50);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
